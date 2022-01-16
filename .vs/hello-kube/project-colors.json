@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "836c520a-06bc-4ba8-87e9-38d7fe07e1c3": {
+      "ProjectGuid": "836c520a-06bc-4ba8-87e9-38d7fe07e1c3",
+      "DisplayName": "hello-kube",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

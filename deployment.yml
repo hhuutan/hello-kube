@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: hello-kube-deployment
+spec:
+  selector:
+    matchLabels:
+      app: hello-kube-pod
+  template:
+    metadata:
+      labels:
+        app: hello-kube-pod
+    spec:
+      containers:
+      - name: hello-kube-container
+        image: hellokube:latest
+        resources:
+          limits:
+            memory: "128Mi"
+            cpu: "500m"
+        ports:
+        - containerPort: 80
